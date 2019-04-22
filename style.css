@@ -201,14 +201,6 @@ footer {
     margin-top: 20px;
 }
 
-footer h3{
-    margin: 0;
-}
-
-footer a {
-    text-decoration: none;
-    color: gray;
-}
 
 .amenities img {
     width: 120px;
@@ -218,13 +210,62 @@ footer a {
 }
 
 iframe {
-    width: 500px;
+    width: 475px;
     height: 400px;
+    margin-right: 10px;
 }
 
 .contact {
-    float: left;
+    float: right;
 }
 
+input[type=text], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 40%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  form {
+    border-radius: 5px;
+    background-color: #c9c9c9;
+    padding: 20px;
+    height: 575px;
+}
+
+
+footer h3{
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+footer{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 a:-webkit-any-link{text-decoration:none;}
