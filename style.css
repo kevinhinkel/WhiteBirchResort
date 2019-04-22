@@ -16,6 +16,10 @@ img {
     display: block;
 }
 
+p {
+    margin: 0;
+}
+
 .logo{
     width: 15em;
     margin-left: auto;
@@ -151,7 +155,7 @@ img {
 .main-nav .close-icon {
     font-style: normal;
     position: absolute;
-    top: 2.2rem;
+    top: 2.3rem;
     right: 1em;
     line-height: 0.75;
     color: rgb(27, 65, 122);
@@ -186,3 +190,24 @@ img {
     width: 100%;
 }
 
+
+footer {
+    width: 100%;
+    background-color: rgb(27, 65, 122);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 100%;
+    line-height: 150%;
+    font-weight: lighter;
+    padding: 30px;
+}
+
+footer h3{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
