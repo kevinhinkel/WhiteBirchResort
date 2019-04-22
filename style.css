@@ -201,6 +201,8 @@ footer {
     line-height: 150%;
     font-weight: lighter;
     padding: 30px;
+    clear: both;
+    margin-top: 20px;
 }
 
 footer h3{
@@ -211,3 +213,11 @@ a {
     text-decoration: none;
     color: white;
 }
+
+.amenities img {
+    width: 120px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
